@@ -1,0 +1,149 @@
+
+@media  (max-width: 670px) {
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  .btn-01 {
+    margin: 0 auto;
+    width: 88px;
+    display: block;
+  }
+  .btn-02 {
+    margin: 15px auto 0;
+    width: 144px;
+    display: block;
+  }
+  .btn-04 {
+    margin: 30px auto 0;
+    width: 56px;
+    display: block;  
+  }
+  .container {
+    margin: 0 15px;
+  }
+  .header-logo {
+    padding-top: 18px;
+    width: 130px;
+  }
+  .top-wrapper-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .top-wrapper-logo {
+    padding-top: 150px;
+    width: 345px;
+    height: 275px;
+    margin: 0 auto ;
+    display: block;  
+  }
+  .top-sentence-01 {
+    text-align: center;
+    padding-top: 10px;
+    width: 100%;
+  }
+  .top-sentence-02 {
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+  }
+  .service-title:before,
+  .service-title:after {
+    margin:15px;
+  }
+  .service-wrapper-box {
+    display: flex;
+    flex-direction: column;
+    margin: 80px auto;
+    width: 200px;
+  } 
+  .service-sentence {
+    margin-bottom: 50px;
+  }
+  .about-title:before,
+  .about-title:after {
+    margin:15px;
+  }
+  .about-wrapper-box-01  {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin: 100px 0px 0;
+  }
+  .about-wrapper-box-02  {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 100px 0px 0;
+  }
+  .about-box {
+    width: 100%;
+  } 
+  .about-sentence {
+    width: 100%;
+    font-size: 16px;
+    margin: 30px 50px 0 0;
+    line-height: 27px;
+  }
+  .about-logo {
+    width: 100%;
+  }
+  .about-item {
+    font-size: 32px;
+    margin: 30px 50px 0 0;
+  }
+  .news-title:before,
+  .news-title:after {
+    margin:15px;
+  }
+  .news-wrapper-box  {
+    display: flex;
+    flex-direction: column;
+  }
+  .news-logo {
+    width: 100%;
+    margin: 18px auto 24px;
+    display: block;  
+  }
+  .sentence1 {
+    width: 100%;
+  }
+  .sentence2 {
+    width: 100%;
+  }
+  hr {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .footer-box {
+    display: flex;
+    flex-direction: column;
+    height: 215px;
+  }
+  .footer-logo {
+    padding: 25px 0 0 0;
+    margin: 0 auto ;
+    width: 70px;
+    display: block;  
+  } 
+  .footer-item-01 {
+    display: flex;
+    flex-direction: column;
+    padding: 23px 0px 0 0;
+    text-align: center;
+  }
+  .footer-item-01 p{
+    border-right : none ;
+    height: 20px;
+    margin-right: 0;
+    padding-right: 0;
+    margin-bottom: 12px;
+  }
+  .footer-item-02 {
+    padding-top: 70px;
+    height: 30px;
+  }
+}
