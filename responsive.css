@@ -1,4 +1,3 @@
-
 @media  (max-width: 1079px) {
   .btn-01 {
     margin: 0 auto;
@@ -128,10 +127,7 @@
   .inner {
     margin: 0 15px;
   }
-  .top-wrapper-logo {
-    width: 100%;
 
-  } 
   .service-title:before,
   .service-title:after {
     margin:15px;
@@ -140,14 +136,18 @@
   .about-title:after {
     margin:15px;
   }
-  .about-logo {
-    width: 100%;
-  }
   .news-title:before,
   .news-title:after {
     margin:15px;
   }
 }
+@media  (max-width: 375px) {
+  .top-wrapper-logo {
+    width: 100%;
+  } 
+  .about-logo {
+    width: 100%;
+  }
 @media  (max-width: 320px) {
   .header-box {
     display: flex;
