@@ -1,4 +1,19 @@
-@media  (max-width: 1079px) {
+  @media  (max-width: 1079px) {  
+    .inner {
+      margin: 0 50px;
+    }
+    .footer-box-01 {
+      margin: 0 50px;
+    }
+}
+
+@media  (max-width: 767px) {
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 28px;
+  }
   .btn-01 {
     margin: 0 auto;
     width: 88px;
@@ -9,32 +24,57 @@
     width: 144px;
     display: block;
   }
-  .btn-04 {
+  .btn-03 {
     margin: 30px auto 0;
     width: 56px;
     display: block;  
   }
+
   .inner {
-    margin: 0 50px;
+    margin: 0 15px;
+  }
+  .service-title:before,
+  .service-title:after {
+    margin:15px;
+  }
+  .about-title:before,
+  .about-title:after {
+    margin:15px;
+  }
+  .news-title:before,
+  .news-title:after {
+    margin:15px;
+  }
+  .inner {
+    margin: 0 15px;
+  }
+  .header-logo {
+    padding-top: 21px;
+    width: 110px;
   }
   .top-wrapper-box {
     display: flex;
     flex-direction: column;
   }
   .top-wrapper-logo {
-    padding-top: 150px;
+    padding-top: 10px;
     width: 345px;
-    height: 275px;
     margin: 0 auto ;
     display: block;  
   }
   .top-sentence-01 {
+    font-size: 28px;
     text-align: center;
-    padding-top: 10px;
-    width: 100%;
+    padding: 10px 75px;
+    margin: 0 auto ;
+
   }
   .top-sentence-02 {
+    text-align: center;
     width: 100%;
+  }
+  .service-title {
+    margin-top: 100px;
   }
   .service-wrapper-box {
     display: flex;
@@ -45,29 +85,38 @@
   .service-sentence {
     margin-bottom: 50px;
   }
+  .about-title {
+    margin-top: 100px;
+  }
   .about-wrapper-box-01  {
-    margin: 0;
-    display: block;
-    }
+    display: flex;
+    flex-direction: column;
+    margin: 80px 0 0;
+  }
+  .about-logo {
+      width: 345px;
+      margin: 0 auto ;
+      display: block;  
+  }
   .about-wrapper-box-02  {
+    display: flex;
+    flex-direction: column;
     margin: 100px 0 0 ;
-    display: block;
   }
   .about-sentence {
     margin: 30px 0 0 0;
     width: 100%;
   }
+  .about-item {
+    margin-top: 50px;
+  }
   .about-box {
-    display: flex;
-    flex-direction: column;
-    margin: 80px auto;
     width: 100%;
   }
-  .about-logo {
-    width: 345px;
-    margin: 0 auto ;
-    display: block;  
-    }
+  .about-sentence {
+    width: 100%;
+  }
+
   .news-wrapper-box  {
     display: flex;
     flex-direction: column;
@@ -82,75 +131,32 @@
   .sentence2 {
     width: 100%;
   }
-  hr {
-    width: 100%;
-    margin-left: 0px;
-  }
-  .footer-box {
+  .footer-box-01 {
     display: flex;
     flex-direction: column;
     height: 215px;
   }
   .footer-logo {
-    padding: 25px 0 0 0;
+    padding-top: 30px;
     margin: 0 auto ;
-    width: 70px;
     display: block;  
   } 
-  .footer-item-01 ul{
+  .footer-item-01 ul {
     display: flex;
     flex-direction: column;
-    padding: 23px 0px 0 0;
+    padding-top: 23px;
     text-align: center;
   }
-  .footer-item-01 a{
+  .footer-item-01 .border {
     border-right : none ;
-    height: 20px;
     margin-right: 0;
     padding-right: 0;
   }
   .footer-item-01 li {
     margin-bottom: 12px;
   }
-  .footer-item-02 {
-    padding-top: 70px;
-    height: 30px;
-  }
-}
-@media  (max-width: 767px) {
-  h1 {
-    font-size: 28px;
-  }
-  h2 {
-    font-size: 28px;
-  }
-  .inner {
-    margin: 0 15px;
-  }
-
-  .service-title:before,
-  .service-title:after {
-    margin:15px;
-  }
-  .about-title:before,
-  .about-title:after {
-    margin:15px;
-  }
-  .news-title:before,
-  .news-title:after {
-    margin:15px;
-  }
-}
-@media  (max-width: 375px) {
-  .top-wrapper-logo {
-    width: 100%;
-  } 
-  .about-logo {
-    width: 100%;
-  }
-@media  (max-width: 320px) {
-  .header-box {
-    display: flex;
-    flex-direction: column;
+  .footer-box-02 {
+    height: 35px;
+    margin-top: 40px;
   }
 }
