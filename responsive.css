@@ -1,17 +1,29 @@
-  @media  (max-width: 1079px) {  
-    .inner {
-      margin: 0 50px;
-    }
-    .footer-box-01 {
-      margin: 0 50px;
-    }
-}
-
-@media  (max-width: 767px) {
-  h1 {
-    font-size: 28px;
+@media  (max-width: 1079px) {  
+  .inner {
+    padding: 0 15px;
   }
-  h2 {
+  .footer-box-01 {
+    margin: 0 15px;
+  }
+  .top-sentence-02pc {
+    max-width: 400px;
+    width: 100%;
+  }
+  .about-logo {
+    max-width: 450px;
+    width: 100%;
+  }
+  .news-logo {
+    max-width: 300px;
+    width: 100%;
+  }
+  .about-sentence {
+    max-width: 450px;
+    width: 100%;
+  }
+}
+@media  (max-width: 767px) {
+  .title {
     font-size: 28px;
   }
   .btn-01 {
@@ -29,10 +41,6 @@
     width: 56px;
     display: block;  
   }
-
-  .inner {
-    margin: 0 15px;
-  }
   .service-title:before,
   .service-title:after {
     margin:15px;
@@ -45,12 +53,10 @@
   .news-title:after {
     margin:15px;
   }
-  .inner {
-    margin: 0 15px;
-  }
   .header-logo {
     padding-top: 21px;
     width: 110px;
+    font-size: 28px;
   }
   .top-wrapper-box {
     display: flex;
@@ -58,20 +64,27 @@
   }
   .top-wrapper-logo {
     padding-top: 10px;
-    width: 345px;
+    max-width: 560px;
+    width: 100%;
     margin: 0 auto ;
     display: block;  
   }
-  .top-sentence-01 {
+  .top-sentence-01sp {
     font-size: 28px;
     text-align: center;
-    padding: 10px 75px;
-    margin: 0 auto ;
-
+    padding: 10px 0 0;
+    line-height: 48px;
   }
-  .top-sentence-02 {
+  .top-sentence-02sp {
     text-align: center;
     width: 100%;
+    padding-top: 20px;
+  }
+  .top-sentence-01sp,.top-sentence-02sp {
+    display: block;
+  }
+  .top-sentence-01pc,.top-sentence-02pc {
+    display: none;
   }
   .service-title {
     margin-top: 100px;
@@ -94,9 +107,10 @@
     margin: 80px 0 0;
   }
   .about-logo {
-      width: 345px;
-      margin: 0 auto ;
-      display: block;  
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto ;
+    display: block;  
   }
   .about-wrapper-box-02  {
     display: flex;
@@ -104,11 +118,14 @@
     margin: 100px 0 0 ;
   }
   .about-sentence {
-    margin: 30px 0 0 0;
+    margin: 30px auto 0;
+    display: block;  
     width: 100%;
   }
   .about-item {
-    margin-top: 50px;
+    margin: 50px auto 0;
+    display: block;  
+    max-width: 450px;
   }
   .about-box {
     width: 100%;
@@ -147,8 +164,8 @@
     padding-top: 23px;
     text-align: center;
   }
-  .footer-item-01 .border {
-    border-right : none ;
+  .footer-item-01 li{
+    border-right : none;
     margin-right: 0;
     padding-right: 0;
   }
