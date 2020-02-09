@@ -1,17 +1,9 @@
 body {
   color: #333333;
-  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+  font-family: YuGothic,'Yu Gothic',sans-serif;
 }
 li {
   list-style: none;
-}
-h2 {
-  font-weight: bold;
-  font-size: 36px;
-}
-h3 {
-  font-weight: bold;
-  color:#109954;
 }
 a {
   text-decoration: none ;
@@ -19,6 +11,10 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+.title {
+  font-weight: bold;
+  font-size: 36px;
 }
 .btn-01 {
   font-size: 18px;
@@ -59,6 +55,7 @@ img {
 }
 .btn-04 {
   font-size: 14px;
+  font-weight: bold;
   border: 2px solid#109954;
   border-radius: 13px;
   background-color:white;
@@ -85,7 +82,8 @@ img {
 }
 .header-box {
   display: flex;
-  justify-content:space-between;	
+  justify-content:space-between;
+  height: 70px;	
 }
 .header-logo {
   padding-top: 18px;
@@ -98,26 +96,29 @@ img {
   font-weight: bold;
   color:#333;
   padding: 15px 35px;
-  margin-top: 11px;
+  margin: 11px 0;
   box-shadow: #00000029 3px 3px 10px;
 }
 .top-wrapper-box {
   display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
-  flex-wrap: wrap;
 }
 .top-wrapper-logo {
   padding-top: 150px;
   width: 560px;
 }
-.top-sentence-01 {
+.top-sentence-01pc,.top-sentence-01sp {
   font-size: 36px;
   text-align: left;
   padding-top: 274px;
   font-weight: bold;
+  width: 100%;
 }
-.top-sentence-02 {
+.top-sentence-01sp,.top-sentence-02sp {
+  display: none;
+}
+.top-sentence-02pc,.top-sentence-02sp {
   font-size: 16px;
   text-align: left;
   width: 400px;
@@ -141,13 +142,15 @@ img {
 .service-wrapper-box {
   display: flex;
   justify-content: space-between;
-  margin: 110px 140px 0;
+  margin: 110px auto 0;
+  max-width: 800px;
 }
 .service-sentence {
   text-align: center;
   padding-top: 30px;
   font-size: 20px;
   font-weight: bold;
+  width: 205px;
 }
 .service-logo {
   width: 200px;
@@ -170,18 +173,14 @@ img {
   display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
-  flex-wrap: wrap;
   margin: 100px 70px 0;
 }
 .about-wrapper-box-02  {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   margin: 100px 70px 0;
 }
-.about-box {
-  width: 450px;
-}
+
 .about-logo {
   width: 450px;
   box-shadow: #00000029 0 11px 20px;
@@ -195,7 +194,9 @@ img {
 .about-item {
   font-size: 32px;
   margin-top: 30px;
-}
+  font-weight: bold;
+  color:#109954;
+  }
 .news-title {
   display: flex;
   justify-content: center;
@@ -214,7 +215,6 @@ img {
 .news-wrapper-box  {
   display: flex;
   justify-content: left;
-  flex-wrap: wrap;
 }
 .news-logo {
   width: 300px;
@@ -237,7 +237,7 @@ time {
 .sentence2 {
   font-size: 16px;
   line-height: 27px;
-  width: 650px;
+  width: 100%;
   margin-top: 20px;
 }
 hr {
@@ -271,10 +271,15 @@ hr {
   justify-content: space-between;
   padding-top: 50px;
 }
-.footer-item-01 .border {
+.footer-item-01 li {
   margin-right: 18px;
   padding-right: 18px;
   border-right : solid 1px #333 ;
+}
+.footer-item-01 li:last-child {
+  border-right : none;
+  margin-right: 0;
+  padding-right: 0;
 }
 .footer-box-02 {
   font-size: 14px;
