@@ -65,6 +65,7 @@ img {
 }
 .btn-05 {
   font-size: 18px;
+  font-weight: bold;
   border-radius: 24px;
   background-color:#109954;
   color:white;
@@ -83,10 +84,10 @@ img {
 .header-box {
   display: flex;
   justify-content:space-between;
+  align-items: center;
   height: 70px;	
 }
 .header-logo {
-  padding-top: 18px;
   width: 130px;
 }
 .header-item-02 {
@@ -103,15 +104,16 @@ img {
   display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
+  align-items: center;
 }
 .top-wrapper-logo {
-  padding-top: 150px;
+  padding-top: 80px;
   width: 560px;
 }
 .top-sentence-01pc,.top-sentence-01sp {
   font-size: 36px;
   text-align: left;
-  padding-top: 274px;
+  padding-top: 204px;
   font-weight: bold;
   width: 100%;
 }
@@ -142,7 +144,8 @@ img {
 .service-wrapper-box {
   display: flex;
   justify-content: space-between;
-  margin: 110px auto 0;
+  align-items: center;
+  margin: 109px auto 0;
   max-width: 800px;
 }
 .service-sentence {
@@ -173,11 +176,13 @@ img {
   display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
+  align-items: center;
   margin: 100px 70px 0;
 }
 .about-wrapper-box-02  {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 100px 70px 0;
 }
 
@@ -215,10 +220,11 @@ img {
 .news-wrapper-box  {
   display: flex;
   justify-content: left;
+  align-items: center;
 }
 .news-logo {
   width: 300px;
-  margin:18px 35px 18px 40px;
+  margin:0 35px 0 40px;
 }
 time {
   font-size: 16px;
@@ -226,7 +232,7 @@ time {
   margin-right: 10px;
 }
 .sentence {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 .sentence1 {
   font-size: 16px;
@@ -237,7 +243,7 @@ time {
 .sentence2 {
   font-size: 16px;
   line-height: 27px;
-  width: 100%;
+  max-width: 650px;
   margin-top: 20px;
 }
 hr {
@@ -256,6 +262,7 @@ hr {
 .footer-box-01 {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   max-width: 1080px;
   margin-left: auto;
   margin-right: auto;
@@ -269,6 +276,7 @@ hr {
   font-size: 14px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-top: 50px;
 }
 .footer-item-01 li {
