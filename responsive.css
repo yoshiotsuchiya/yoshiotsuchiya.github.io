@@ -8,12 +8,25 @@
   .top-wrapper-box {
     width: 100%;
   }
-  .top-sentence-02pc {
-    max-width: 400px;
-    width: 100%;
+  .top-item-01,.top-item-02 {
+    width: 50%;
   }
   .top-sentence-01pc {
-    font-size: 28px;
+    font-size: 3.2vw;
+  }
+  .top-sentence-02pc {
+    font-size: 1.5vw;
+    width: 80%;
+  }
+  .btn-01,.btn-02 {
+    font-size: 1.6vw;
+  }
+  .about-wrapper-box-01,.about-wrapper-box-02 {
+    margin: 100px auto 0;  
+  }
+  .about-box {
+    width: 50%;
+    padding: 0 20px;
   }
   .about-logo {
     max-width: 450px;
@@ -29,11 +42,13 @@
     font-size: 28px;
   }
   .btn-01 {
+    font-size: 18px;
     margin: 0 auto;
     width: 88px;
     display: block;
   }
   .btn-02 {
+    font-size: 18px;
     margin: 15px auto 0;
     width: 144px;
     display: block;
@@ -55,14 +70,19 @@
   .news-title:after {
     margin:15px;
   }
+  .hr {
+    max-width: 1000px;
+  }
   .header-logo {
-    padding-top: 21px;
     width: 110px;
     font-size: 28px;
   }
   .top-wrapper-box {
     display: flex;
     flex-direction: column;
+  }
+  .top-item-01,.top-item-02 {
+    width: 100%;
   }
   .top-wrapper-logo {
     padding-top: 10px;
@@ -100,7 +120,7 @@
     margin-bottom: 50px;
   }
   .about-title {
-    margin-top: 100px;
+    margin-top: 50px;
   }
   .about-wrapper-box-01  {
     display: flex;
@@ -130,6 +150,7 @@
   }
   .about-box {
     width: 100%;
+    padding: 0;
   }
   .about-sentence {
     width: 100%;
