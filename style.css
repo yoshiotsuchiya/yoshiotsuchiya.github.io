@@ -105,15 +105,14 @@ img {
   justify-content: space-between;
   flex-direction: row-reverse;
   align-items: center;
+  padding-top: 80px;
 }
 .top-wrapper-logo {
-  padding-top: 80px;
   width: 560px;
 }
 .top-sentence-01pc,.top-sentence-01sp {
   font-size: 36px;
   text-align: left;
-  padding-top: 124px;
   padding-right: 16px;
   font-weight: bold;
   width: 100%;
@@ -127,7 +126,7 @@ img {
   padding-right: 16px;
   width: 400px;
   line-height: 27px;
-  padding: 34px 0 20px 0;
+  margin:34px 0 20px;
 }
 .service-title {
   display: flex;
@@ -187,20 +186,18 @@ img {
   align-items: center;
   margin: 100px 70px 0;
 }
-
 .about-logo {
   width: 450px;
   box-shadow: #00000029 0 11px 20px;
 }
-.about-sentence {
+.about-sentence-01,.about-sentence-02 {
   width: 450px;
   font-size: 16px;
-  margin-top: 30px;
   line-height: 27px;
 }
 .about-item {
   font-size: 32px;
-  margin-top: 30px;
+  margin-bottom: 30px;
   font-weight: bold;
   color:#109954;
   }
@@ -233,7 +230,7 @@ time {
   font-weight: bold;
   margin-right: 10px;
 }
-.sentence {
+.news-sentence {
   margin-top: 15px;
 }
 .sentence1 {
@@ -259,7 +256,6 @@ hr {
 }
 .footer-inner {
   background-color: #E8E8E8;
-
 }
 .footer-box-01 {
   display: flex;
@@ -279,7 +275,7 @@ hr {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 25px;
 }
 .footer-item-01 li {
   margin-right: 18px;
@@ -294,10 +290,10 @@ hr {
 .footer-box-02 {
   font-size: 14px;
   background-color: #E8E8E8;
-  height: 23px;
+  height: 26px;
   text-align: center;
+  align-items: center;
   max-width: 1080px;
-  margin-top: 17px;
   margin-left: auto;
   margin-right: auto;
 }
