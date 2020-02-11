@@ -32,9 +32,12 @@
     max-width: 450px;
     width: 100%;
   }
-  .about-sentence {
+  .about-sentence-01,.about-sentence-02 {
     max-width: 450px;
     width: 100%;
+  }
+  .news-logo {
+    margin:0 auto;
   }
 }
 @media  (max-width: 767px) {
@@ -43,7 +46,7 @@
   }
   .btn-01 {
     font-size: 18px;
-    margin: 0 auto;
+    margin: 20px auto 0;
     width: 88px;
     display: block;
   }
@@ -80,18 +83,25 @@
   .top-wrapper-box {
     display: flex;
     flex-direction: column;
+    padding-top: 10px;
   }
   .top-item-01,.top-item-02 {
     width: 100%;
   }
   .top-wrapper-logo {
-    padding-top: 10px;
     max-width: 560px;
     width: 100%;
     margin: 0 auto ;
     display: block;  
   }
+  .top-sentence-01sp,.top-sentence-02sp {
+    display: block;
+  }
+  .top-sentence-01pc,.top-sentence-02pc {
+    display: none;
+  }
   .top-sentence-01sp {
+    font-size: 28px;
     text-align: center;
     padding: 10px 0 0;
     line-height: 48px;
@@ -99,13 +109,8 @@
   .top-sentence-02sp {
     text-align: center;
     width: 100%;
-    padding-top: 20px;
-  }
-  .top-sentence-01sp,.top-sentence-02sp {
-    display: block;
-  }
-  .top-sentence-01pc,.top-sentence-02pc {
-    display: none;
+    padding-right: 0;
+    margin: 22px 0 0;
   }
   .service-title {
     margin-top: 100px;
@@ -136,9 +141,14 @@
   .about-wrapper-box-02  {
     display: flex;
     flex-direction: column;
-    margin: 100px 0 0 ;
+    margin: 70px 0 0 ;
   }
-  .about-sentence {
+  .about-sentence-01 {
+    margin: 50px auto 0;
+    display: block;  
+    width: 100%;
+  }
+  .about-sentence-02 {
     margin: 30px auto 0;
     display: block;  
     width: 100%;
@@ -152,23 +162,35 @@
     width: 100%;
     padding: 0;
   }
-  .about-sentence {
+  .about-sentence-01,.about-sentence-02 {
     width: 100%;
   }
+  .news-title {
+    margin-top: 100px;
+    margin-bottom: 80px;
 
+  }
   .news-wrapper-box  {
     display: flex;
     flex-direction: column;
   }
   .news-logo {
-    margin: 18px auto 24px;
+    margin: 10px auto 0;
     display: block;  
+  }
+  .news-sentence {
+    margin-top: 18px;
   }
   .sentence1 {
     width: 100%;
+    margin-top: 22px;
   }
   .sentence2 {
     width: 100%;
+    margin: 24px 0 10px;
+  }
+  .btn-05 {
+    margin-top: 22px;
   }
   .footer-box-01 {
     display: flex;
@@ -195,7 +217,7 @@
     margin-bottom: 12px;
   }
   .footer-box-02 {
-    height: 35px;
+    height: 34px;
     margin-top: 40px;
   }
 }
